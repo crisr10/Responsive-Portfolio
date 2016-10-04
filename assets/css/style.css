@@ -308,6 +308,7 @@ label[for=name], label[for=email], label[for=message] {
 	} 
 	.navMain, .container {
 		margin-left:40px;
+		margin-right:20px;
 	}
 }
 @media screen and (max-width:1020px) {
@@ -387,7 +388,7 @@ label[for=name], label[for=email], label[for=message] {
 		width:90%;
 	}
 	.navMain ul {
-		float:left; 
+		float:right; 
 		margin-left:10px;
 	}
 	.wrapper {
@@ -406,7 +407,7 @@ label[for=name], label[for=email], label[for=message] {
 	}
 	.container {
 		width:700px;
-		margin-left: 20px;
+		margin-left: 30px;
 	}
 	.image img {
 		width:290px;
@@ -465,7 +466,8 @@ label[for=name], label[for=email], label[for=message] {
 		width:540px;
 	}
 	.profilePic {
-		width:540px;
+		width:100%;
+		height:auto;
 	}
 	.navMain ul { 
 		margin-left:0;
@@ -520,7 +522,82 @@ label[for=name], label[for=email], label[for=message] {
 	#imageRockPaperScissors h2 {
 		top:2512px;
 	}
-	.wrapper {
+}
+@media screen and (max-width:375px) {
+	.white, .content, .header, .navMain ul, {
+		width:375px;
+	}
+	.white {
+		height:110px;
+	}
+	.navMain ul li {
+		font-size:10px;
+		padding-right:0;
+		padding-left:0
+	}
+	.menuButtonPortfolio {
+		padding:0 38px;
+		margin-right:35px;
+		margin-left:35px;
+	}
+	.connectWithMe, .aboutMe {
+		width:300px;
+	}
+	.header {
+		padding:20px 0;
+		width:375px;
+		font-size:25px;
+	}
+	.connectWithMe h2 {
+		font-size:15px;
+	}
+	.container {
+		width:365px;
+		margin-left:10px;
+		margin-top:10px;
+	}
+	.navMain ul {
 		width:100%;
+		margin-top:0x;
+		height:40px;
+	}
+	.aboutMe, .connectWithMe, .contact, .portfolio {
+		width:290px;
+	}
+	#mainHeader {
+		font-size:20px;
+	}
+	.menuButton, .menuButtonPortfolio {
+		margin-top:10px;
+	}
+	.image img {
+		float:left;
+		width:100%;
+		height:auto;
+	}
+	#imageHangman h2, 
+	#imageRPGGame h2, 
+	#imageTriviaGame h2, 
+	#imageRudgersInfoWidget h2,
+	#imageRockPaperScissors h2 
+	{
+		width:290px;
+		position:absolute;
+		font-size:15px;
+	}
+	#imageHangman h2 {
+		top:400px;
+	}
+	#imageRPGGame h2 {
+		top:667px;
+	}
+	#imageTriviaGame h2 {
+		top:945px;
+	}
+	#imageRudgersInfoWidget h2 {
+		top:1222px;
+	}
+	#imageRockPaperScissors h2 {
+		top:1500px;
 	}
 }
