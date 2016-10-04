@@ -288,46 +288,68 @@ label[for=name], label[for=email], label[for=message] {
 
 @media screen and (max-width:1110px) {
 	.navMain, .container {
-		margin-left:100px;
+		margin-left:60px;
 	}
+	.footer, .white {
+		width:100%;
+	} 
 }
 @media screen and (max-width:1060px) {
+	.footer, .white {
+		width:100%;
+	} 
 	.navMain, .container {
-		margin-left:80px;
+		margin-left:50px;
 	}
 }
 @media screen and (max-width:1040px) {
+	.footer, .white {
+		width:100%;
+	} 
 	.navMain, .container {
-		margin-left:60px;
+		margin-left:40px;
 	}
 }
 @media screen and (max-width:1020px) {
+	.footer, .white {
+		width:100%;
+	} 
 	.navMain, .container {
-		margin-left:40px;
+		margin-left:30px;
 	}
 }
 @media screen and (max-width:980px) {
 	.header {
 		position:static;
-	}
-	.navMain, .container {
-		width:800px; 
-	}
-	.aboutMe, .contact, .portfolio {
-		width:430px;
-	}
-	.profilePic {
-		width:420px;
-	}
-	.header {
 		font-size:35px;
 		font-weight: 900;
 	}
+	.container, .navMain{
+		width:800px;
+	}
+	#imageHangman, 
+	#imageRPGGame, 
+	#imageTriviaGame, 
+	#imageRudgersInfoWidget,
+	#imageRockPaperScissors 
+	{
+		width:100%;
+		height:autol;
+	}
+	.aboutMe, .contact, .portfolio{
+		width:430px;
+	}
+	.profilePic {
+		width:100%;
+		height:auto;
+	}
+	
 	#imageRPGGame, #imageRudgersInfoWidget {
 		float:left;
 	}
 	.image img {
-		width:430px;
+		width:100%;
+		height:auto;
 	}
 	
 	#imageHangman h2, 
@@ -356,11 +378,21 @@ label[for=name], label[for=email], label[for=message] {
 		top:2020px;
 	}
 	.footer, .white {
-		width:980px;
+		width:100%;
 	}
 }
 
 @media screen and (max-width:768px) {
+	.navMain{
+		width:90%;
+	}
+	.navMain ul {
+		float:left; 
+		margin-left:10px;
+	}
+	.wrapper {
+		width:100%;
+	}
 	.header {
 		position:static;
 	}
@@ -372,11 +404,18 @@ label[for=name], label[for=email], label[for=message] {
 	.aboutMe, .contact, .portfolio, .connectWithMe  {
 		width:640px;
 	}
-	.navMain, .container {
+	.container {
 		width:700px;
 		margin-left: 20px;
 	}
 	.image img {
+		width:290px;
+	}
+	#imageHangman, 
+	#imageRPGGame, 
+	#imageTriviaGame, 
+	#imageRudgersInfoWidget,
+	#imageRockPaperScissors {
 		width:290px;
 	}
 	#imageHangman h2, 
@@ -402,21 +441,22 @@ label[for=name], label[for=email], label[for=message] {
 		top:950px;
 	}
 	.footer, .white {
-		width:768px;
+		width:100%;
 	}
 
 @media screen and (max-width:640px) {
 	.footer, .white {
-		width:640px;
+		width:100%;
 	}
 	.header {
-		position:static;
-		width:580px;
+		padding:20px;
+		width:600px;
 		text-align: center;
 	}
 	.navMain {
 		margin-left:0;
-		width:460px;
+		width:90%;
+		margin-right:0;
 	}
 	.white {
 		height:150px;
@@ -428,6 +468,7 @@ label[for=name], label[for=email], label[for=message] {
 		width:540px;
 	}
 	.navMain ul { 
+		margin-left:0;
 		float:left;
 		height:80px;
 		width:600px;
@@ -435,12 +476,15 @@ label[for=name], label[for=email], label[for=message] {
 	}
 	.navMain ul li{
 		font-size:20px;
-		padding-right:18px;
-		padding-left:18px
+		padding-right:15px;
+		padding-left:15px
 	}
 	.container {
 		width:580px;
 		margin-right:0;
+	}
+	#imageRPGGame, #imageRudgersInfoWidget {
+	 	float:left;
 	}
 	.menuButtonPortfolio {
 		padding:0 60px;
@@ -448,6 +492,7 @@ label[for=name], label[for=email], label[for=message] {
 		margin-left:35px;
 	}
 	.image img {
+		float:left;
 		width:540px;
 	}
 	#imageHangman h2, 
@@ -474,5 +519,8 @@ label[for=name], label[for=email], label[for=message] {
 	}
 	#imageRockPaperScissors h2 {
 		top:2512px;
+	}
+	.wrapper {
+		width:100%;
 	}
 }
