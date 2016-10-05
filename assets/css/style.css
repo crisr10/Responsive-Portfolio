@@ -467,15 +467,39 @@ label[for=name], label[for=email], label[for=message] {
 	.aboutMe, .connectWithMe, .contact, .portfolio {
 		width:560px;
 	}
-	#imageHangman, 
-	#imageRPGGame, 
-	#imageTriviaGame, 
-	#imageRudgersInfoWidget,
-	#imageRockPaperScissors {
-		width:560px;
+	.image img {
+		margin-left:50px;
+		width:450px;
+		height:auto;
 	}
 	#imageRPGGame, #imageRudgersInfoWidget {
 	 	float:left;
+	}
+	#imageHangman h2, 
+	#imageRPGGame h2, 
+	#imageTriviaGame h2, 
+	#imageRudgersInfoWidget h2,
+	#imageRockPaperScissors h2 {
+		width:450px;
+		margin-left:50px;
+	}
+	#imageHangman h2 {
+		top:500px;
+	}
+	#imageRPGGame h2 {
+		top:890px;
+	}
+	#imageTriviaGame h2 {
+		top:1289px;
+	}
+	#imageRudgersInfoWidget h2 {
+		top:1690px;
+	}
+	#imageRockPaperScissors h2 {
+		top:2090px;
+	}
+	.footer, .white {
+		width:100%;
 	}
 } 
 @media screen and (max-width:640px) {
@@ -530,13 +554,15 @@ label[for=name], label[for=email], label[for=message] {
 	.image img {
 		float:left;
 		width:540px;
+		margin-left:0;
 	}
 	#imageHangman, 
 	#imageRPGGame, 
 	#imageTriviaGame, 
 	#imageRudgersInfoWidget,
 	#imageRockPaperScissors {
-		width:560px;
+		width:100%;
+		height:auto;
 	}
 	#imageHangman h2, 
 	#imageRPGGame h2, 
@@ -547,6 +573,7 @@ label[for=name], label[for=email], label[for=message] {
 		width:540px;
 		position:absolute;
 		font-size:20px;
+		margin-left:0;
 	}
 	#imageHangman h2 {
 		top:650px;
@@ -614,8 +641,9 @@ label[for=name], label[for=email], label[for=message] {
 	}
 	.image img {
 		float:left;
-		width:290px;
+		width:100%;
 		height:auto;
+		margin-left:0;
 	}
 	#imageHangman h2, 
 	#imageRPGGame h2, 
@@ -626,6 +654,15 @@ label[for=name], label[for=email], label[for=message] {
 		width:290px;
 		position:absolute;
 		font-size:15px;
+		margin-left:0;
+	}
+	#imageHangman, 
+	#imageRPGGame, 
+	#imageTriviaGame, 
+	#imageRudgersInfoWidget,
+	#imageRockPaperScissors 
+	{
+		width:290px;
 	}
 	#imageHangman h2 {
 		top:400px;
