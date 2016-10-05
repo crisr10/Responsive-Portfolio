@@ -335,7 +335,7 @@ label[for=name], label[for=email], label[for=message] {
 	#imageRockPaperScissors 
 	{
 		width:100%;
-		height:autol;
+		height:auto;
 	}
 	.aboutMe, .contact, .portfolio{
 		width:430px;
@@ -444,7 +444,40 @@ label[for=name], label[for=email], label[for=message] {
 	.footer, .white {
 		width:100%;
 	}
-
+}
+@media screen and (max-width:667px) {
+	.header {
+		padding:20px 0;
+		width:330px;
+		font-size:25px;
+		text-align: center;
+	}
+	.navMain {
+		margin-left:20px;
+		width:647px;
+	}
+	.navMain ul {
+		float:left;
+		padding-left:10px;
+	}
+	.container {
+		width:627px;
+		margin-left:20px;
+	}
+	.aboutMe, .connectWithMe, .contact, .portfolio {
+		width:560px;
+	}
+	#imageHangman, 
+	#imageRPGGame, 
+	#imageTriviaGame, 
+	#imageRudgersInfoWidget,
+	#imageRockPaperScissors {
+		width:560px;
+	}
+	#imageRPGGame, #imageRudgersInfoWidget {
+	 	float:left;
+	}
+} 
 @media screen and (max-width:640px) {
 	.footer, .white {
 		width:100%;
@@ -482,8 +515,9 @@ label[for=name], label[for=email], label[for=message] {
 		padding-left:15px
 	}
 	.container {
-		width:580px;
+		width:560px;
 		margin-right:0;
+		margin-left:20px;
 	}
 	#imageRPGGame, #imageRudgersInfoWidget {
 	 	float:left;
@@ -496,6 +530,13 @@ label[for=name], label[for=email], label[for=message] {
 	.image img {
 		float:left;
 		width:540px;
+	}
+	#imageHangman, 
+	#imageRPGGame, 
+	#imageTriviaGame, 
+	#imageRudgersInfoWidget,
+	#imageRockPaperScissors {
+		width:560px;
 	}
 	#imageHangman h2, 
 	#imageRPGGame h2, 
@@ -511,20 +552,20 @@ label[for=name], label[for=email], label[for=message] {
 		top:650px;
 	}
 	#imageRPGGame h2 {
-		top:1108px;
+		top:1105px;
 	}
 	#imageTriviaGame h2 {
-		top:1575px;
+		top:1570px;
 	}
 	#imageRudgersInfoWidget h2 {
-		top:2044px;
+		top:2034px;
 	}
 	#imageRockPaperScissors h2 {
-		top:2512px;
+		top:2500px;
 	}
 }
 @media screen and (max-width:375px) {
-	.white, .content, .header, .navMain ul, {
+	.white, .content, .header{
 		width:375px;
 	}
 	.white {
@@ -552,14 +593,15 @@ label[for=name], label[for=email], label[for=message] {
 		font-size:15px;
 	}
 	.container {
-		width:365px;
-		margin-left:10px;
+		width:362px;
+		margin-left:13px;
 		margin-top:10px;
 	}
 	.navMain ul {
 		width:100%;
 		margin-top:0x;
 		height:40px;
+		padding-left:35px;
 	}
 	.aboutMe, .connectWithMe, .contact, .portfolio {
 		width:290px;
@@ -572,7 +614,7 @@ label[for=name], label[for=email], label[for=message] {
 	}
 	.image img {
 		float:left;
-		width:100%;
+		width:290px;
 		height:auto;
 	}
 	#imageHangman h2, 
