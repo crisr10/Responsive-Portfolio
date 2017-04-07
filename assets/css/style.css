@@ -29,7 +29,7 @@ body {
  	float:left;
  	height:40px;
 	padding:20px 30px;
-	font-size:35px;
+	font-size:30px;
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 	line-height:40px;
 	font-weight:900;
@@ -87,7 +87,7 @@ body {
 	float:right;
 	padding:20px 30px 20px 30px;
 
-} 
+}
 
 #mainHeader {
 	color:#4aaaa5;
@@ -292,12 +292,12 @@ label[for=name], label[for=email], label[for=message] {
 	}
 	.footer, .white {
 		width:100%;
-	} 
+	}
 }
 @media screen and (max-width:1060px) {
 	.footer, .white {
 		width:100%;
-	} 
+	}
 	.navMain, .container {
 		margin-left:50px;
 	}
@@ -305,7 +305,7 @@ label[for=name], label[for=email], label[for=message] {
 @media screen and (max-width:1040px) {
 	.footer, .white {
 		width:100%;
-	} 
+	}
 	.navMain, .container {
 		margin-left:40px;
 		margin-right:20px;
@@ -314,7 +314,7 @@ label[for=name], label[for=email], label[for=message] {
 @media screen and (max-width:1020px) {
 	.footer, .white {
 		width:100%;
-	} 
+	}
 	.navMain, .container {
 		margin-left:30px;
 	}
@@ -328,11 +328,11 @@ label[for=name], label[for=email], label[for=message] {
 	.container, .navMain{
 		width:800px;
 	}
-	#imageHangman, 
-	#imageRPGGame, 
-	#imageTriviaGame, 
+	#imageHangman,
+	#imageRPGGame,
+	#imageTriviaGame,
 	#imageRudgersInfoWidget,
-	#imageRockPaperScissors 
+	#imageRockPaperScissors
 	{
 		width:100%;
 		height:auto;
@@ -344,7 +344,7 @@ label[for=name], label[for=email], label[for=message] {
 		width:100%;
 		height:auto;
 	}
-	
+
 	#imageRPGGame, #imageRudgersInfoWidget {
 		float:left;
 	}
@@ -352,12 +352,12 @@ label[for=name], label[for=email], label[for=message] {
 		width:100%;
 		height:auto;
 	}
-	
-	#imageHangman h2, 
-	#imageRPGGame h2, 
-	#imageTriviaGame h2, 
+
+	#imageHangman h2,
+	#imageRPGGame h2,
+	#imageTriviaGame h2,
 	#imageRudgersInfoWidget h2,
-	#imageRockPaperScissors h2 
+	#imageRockPaperScissors h2
 	{
 		width:430px;
 		position:absolute;
@@ -388,7 +388,7 @@ label[for=name], label[for=email], label[for=message] {
 		width:90%;
 	}
 	.navMain ul {
-		float:right; 
+		float:right;
 		margin-left:10px;
 	}
 	.wrapper {
@@ -412,18 +412,18 @@ label[for=name], label[for=email], label[for=message] {
 	.image img {
 		width:290px;
 	}
-	#imageHangman, 
-	#imageRPGGame, 
-	#imageTriviaGame, 
+	#imageHangman,
+	#imageRPGGame,
+	#imageTriviaGame,
 	#imageRudgersInfoWidget,
 	#imageRockPaperScissors {
 		width:290px;
 	}
-	#imageHangman h2, 
-	#imageRPGGame h2, 
-	#imageTriviaGame h2, 
+	#imageHangman h2,
+	#imageRPGGame h2,
+	#imageTriviaGame h2,
 	#imageRudgersInfoWidget h2,
-	#imageRockPaperScissors h2 
+	#imageRockPaperScissors h2
 	{
 		width:290px;
 		position:absolute;
@@ -475,9 +475,9 @@ label[for=name], label[for=email], label[for=message] {
 	#imageRPGGame, #imageRudgersInfoWidget {
 	 	float:left;
 	}
-	#imageHangman h2, 
-	#imageRPGGame h2, 
-	#imageTriviaGame h2, 
+	#imageHangman h2,
+	#imageRPGGame h2,
+	#imageTriviaGame h2,
 	#imageRudgersInfoWidget h2,
 	#imageRockPaperScissors h2 {
 		width:450px;
@@ -501,7 +501,7 @@ label[for=name], label[for=email], label[for=message] {
 	.footer, .white {
 		width:100%;
 	}
-} 
+}
 @media screen and (max-width:640px) {
 	.footer, .white {
 		width:100%;
@@ -526,7 +526,7 @@ label[for=name], label[for=email], label[for=message] {
 		width:100%;
 		height:auto;
 	}
-	.navMain ul { 
+	.navMain ul {
 		margin-left:0;
 		float:left;
 		height:80px;
@@ -556,19 +556,19 @@ label[for=name], label[for=email], label[for=message] {
 		width:540px;
 		margin-left:0;
 	}
-	#imageHangman, 
-	#imageRPGGame, 
-	#imageTriviaGame, 
+	#imageHangman,
+	#imageRPGGame,
+	#imageTriviaGame,
 	#imageRudgersInfoWidget,
 	#imageRockPaperScissors {
 		width:100%;
 		height:auto;
 	}
-	#imageHangman h2, 
-	#imageRPGGame h2, 
-	#imageTriviaGame h2, 
+	#imageHangman h2,
+	#imageRPGGame h2,
+	#imageTriviaGame h2,
 	#imageRudgersInfoWidget h2,
-	#imageRockPaperScissors h2 
+	#imageRockPaperScissors h2
 	{
 		width:540px;
 		position:absolute;
@@ -645,22 +645,22 @@ label[for=name], label[for=email], label[for=message] {
 		height:auto;
 		margin-left:0;
 	}
-	#imageHangman h2, 
-	#imageRPGGame h2, 
-	#imageTriviaGame h2, 
+	#imageHangman h2,
+	#imageRPGGame h2,
+	#imageTriviaGame h2,
 	#imageRudgersInfoWidget h2,
-	#imageRockPaperScissors h2 
+	#imageRockPaperScissors h2
 	{
 		width:290px;
 		position:absolute;
 		font-size:15px;
 		margin-left:0;
 	}
-	#imageHangman, 
-	#imageRPGGame, 
-	#imageTriviaGame, 
+	#imageHangman,
+	#imageRPGGame,
+	#imageTriviaGame,
 	#imageRudgersInfoWidget,
-	#imageRockPaperScissors 
+	#imageRockPaperScissors
 	{
 		width:290px;
 	}
